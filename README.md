@@ -11,7 +11,7 @@ This project is an expense management system that consists of a Streamlit fronte
 - **requirements.txt**: Lists the required Python packages.
 - **README.md**: Provides an overview and instructions for the project.
 
-## 🛠️ Features I Worked On
+## Features I Worked On
 
 ### Expense Entry (Streamlit UI)
 - Built dynamic expense input rows with amount, category, and notes
@@ -32,7 +32,7 @@ This project is an expense management system that consists of a Streamlit fronte
 
 ---
 
-## 📊 Screens Implemented
+## Screens Implemented
 - Add / Update Expense UI
 - Expense Breakdown Chart
 - Category-wise Analytics View
@@ -40,7 +40,7 @@ This project is an expense management system that consists of a Streamlit fronte
 
 ---
 
-## 🔧 Tech Stack
+## Tech Stack
 - Streamlit
 - FastAPI (API integration)
 - Pandas
@@ -48,7 +48,7 @@ This project is an expense management system that consists of a Streamlit fronte
 
 ---
 
-## 📚 What I Learned
+## What I Learned
 - Building analytics dashboards from raw data
 - Frontend–backend integration
 - Data aggregation and visualization
@@ -56,8 +56,9 @@ This project is an expense management system that consists of a Streamlit fronte
 
 ---
 
-## ▶️ How to Run
+## How to Run
 ```bash
 pip install -r requirements.txt
 uvicorn server.server:app --reload
 streamlit run frontend/app.py
+
